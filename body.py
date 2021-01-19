@@ -45,8 +45,6 @@ def welcome(message):
     parse_mode='html')
     bot.send_message(message.chat.id, "@bohdanbelmaz \n @tttreep \n @errrni0 \n @s1ava0 \n @nwah_outlander".format(message.from_user, bot.get_me()),
     parse_mode='html')
-    bot.send_message(message.chat.id, "@Haooss".format(message.from_user, bot.get_me()),
-    parse_mode='html')
     
 @bot.message_handler(content_types=['text'])
 def lalala(message):
