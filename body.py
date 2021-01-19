@@ -35,7 +35,7 @@ def welcome(message):
 
 @bot.message_handler(commands=['tagall'])
 def welcome(message):
-    bot.send_message(message.chat.id, "@VladFedorkin \n @parirambururi \n @electrovagina \n @hitecu \n @YouCallMeDeath".format(message.from_user, bot.get_me()),
+    bot.send_message(message.chat.id, "@VladFedorkin \n @parirambururi \n @electrovagina \n @hitecu \n @K_Tsukishima".format(message.from_user, bot.get_me()),
     parse_mode='html')
     bot.send_message(message.chat.id, "@pixelated_batya \n @violetviole \n @raritet04ka \n @WaitForMeForever \n @Ryd_14".format(message.from_user, bot.get_me()),
     parse_mode='html')
