@@ -52,7 +52,7 @@ def welcome(message):
     
 @bot.message_handler(commands=['thank'])
 def welcome(message):
-    bot.send_message(message.chat.id, "Спасибо @WaitForMeForever от всей группы".format(message.from_user, bot.get_me()),
+    bot.send_message(message.chat.id, "Спасибо @Malakhova_Anna от всей группы".format(message.from_user, bot.get_me()),
     parse_mode='html')
 
 bot.polling(none_stop=True)
